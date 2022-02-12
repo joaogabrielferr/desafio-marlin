@@ -1,0 +1,48 @@
+
+
+/* mobile */
+@media (max-width:786px)
+{
+    .header-wrapper{
+        width: 100vw;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header{
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .mensagem-header{
+        text-align: center;
+    }
+    
+
+}
+
+
+
+@media(min-width: 787px){
+
+    .header{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10em;
+    }
+    
+    .mensagem-header{
+        text-align: center;
+    }
+
+
+}
+

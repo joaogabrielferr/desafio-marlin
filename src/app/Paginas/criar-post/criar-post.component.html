@@ -1,0 +1,15 @@
+<div class="criar-post-wrapper">
+  <div class="criar-post">
+    <div class="criar-post-title"><h1>CRIAR POST</h1></div>
+    <form class="criar-post-form">
+        <label for="">Título</label>
+        <input type="text" class = "criar-post-input" name = "title" [(ngModel)] = "title">
+        <label for="">Imagem</label>
+        <input type="text" class="criar-post-input" name = "image" [(ngModel)] = "image">
+        <label for="">Texto</label>
+        <textarea name="" class="criar-post-input" id="" cols="30" rows="10" style="resize:none" name = "text" [(ngModel)] = "text"></textarea>
+        <p class="criar-post-message" id = "form-message"></p>
+        <button class="criar-post-button" id = "form-button" (click) = "criarPost()">{{textoBotao}}</button>
+    </form>
+  </div>
+</div>

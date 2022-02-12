@@ -1,0 +1,20 @@
+<div class="item-post">
+  <div class="item-post-img">
+    <img src={{post.image}} alt="">
+  </div>
+  <div class="item-post-title">
+    <div class = "inner-item-post">
+        <h3>{{post.title}}</h3>
+    </div>
+  </div>
+  <div class="item-post-text">
+    <div class = "inner-item-post">
+      <p>{{post.body}}</p>
+    </div>
+  </div>
+  <div class="item-post-vermais">
+    <div class = "inner-item-post">
+        <a [ngStyle] = "{color:'blue'}" routerLink = "/detalhes/{{post.id}}">Ler Mais</a>
+    </div>
+  </div>
+</div>

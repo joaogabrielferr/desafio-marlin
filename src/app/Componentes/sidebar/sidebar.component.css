@@ -1,0 +1,206 @@
+
+
+@media (max-width:999px)
+{
+  .sidebar-container{
+    width: 90vw;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  
+  .sidebar-section{
+      width: 100%;
+      margin-bottom: 1em;
+  }
+  
+  .sidebar-title{
+      color: #333;
+      font-weight: bold;
+  }
+  
+  .sidebar-item{
+      border-bottom: 0.1em solid grey;
+      padding: 0.8em 0 0.8em 0;
+  }
+  
+  .sidebar-search{
+      padding: 0.5em 0 0.5em 0;
+      display: flex;
+  }
+  
+  .search {
+      width: 100%;
+      display: flex;
+    }
+    
+    .searchTerm {
+      width: 100%;
+      border: 0.1em solid grey;
+      border-right: none;
+      padding: 0.3em;
+      height: 3em;
+      border-radius: 0.3em 0 0 0.3em;
+      outline: none;
+      color: black;
+    }
+    
+    .searchTerm:focus{
+      color: black;
+    }
+    
+    .searchButton {
+      width: 3em;
+      border: 0.1em solid grey;
+      border-width:  0.1em 0.1em 0.1em 0;
+      background-color: transparent;
+      text-align: center;
+      color: grey;
+      border-radius: 0 0.3em 0.3em 0;
+      cursor: pointer;
+      font-size: 1.3em;
+    }
+    
+    /*Resize the wrap to see the search bar change!*/
+    .wrap{
+      width: 100%;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1199px)
+{
+  .sidebar-container{
+    width: 30vw;
+    height: 30em;
+    margin-left:1em;
+    float: right;
+  }
+  
+  
+  .sidebar-section{
+      width: 100%;
+      margin-bottom: 1em;
+  }
+  
+  .sidebar-title{
+      color: #333;
+      font-weight: bold;
+  }
+  
+  .sidebar-item{
+      border-bottom: 0.1em solid grey;
+      padding: 0.8em 0 0.8em 0;
+  }
+  
+  .sidebar-search{
+      padding: 0.5em 0 0.5em 0;
+      display: flex;
+  }
+  
+  .search {
+      width: 100%;
+      display: flex;
+    }
+    
+    .searchTerm {
+      width: 100%;
+      border: 0.1em solid grey;
+      border-right: none;
+      padding: 0.3em;
+      height: 3em;
+      border-radius: 0.3em 0 0 0.3em;
+      outline: none;
+      color: black;
+    }
+    
+    .searchTerm:focus{
+      color: black;
+    }
+    
+    .searchButton {
+      width: 3em;
+      border: 0.1em solid grey;
+      border-width:  0.1em 0.1em 0.1em 0;
+      background-color: transparent;
+      text-align: center;
+      color: grey;
+      border-radius: 0 0.3em 0.3em 0;
+      cursor: pointer;
+      font-size: 1.3em;
+    }
+    
+    /*Resize the wrap to see the search bar change!*/
+    .wrap{
+      width: 100%;
+    }
+}
+
+@media (min-width:1200px)
+{
+  .sidebar-container{
+    width: 20em;
+    height: 30em;
+    margin-left:1em;
+    float: right;
+  }
+  
+  
+  .sidebar-section{
+      width: 100%;
+      margin-bottom: 1em;
+  }
+  
+  .sidebar-title{
+      color: #333;
+      font-weight: bold;
+  }
+  
+  .sidebar-item{
+      border-bottom: 0.1em solid grey;
+      padding: 0.8em 0 0.8em 0;
+  }
+  
+  .sidebar-search{
+      padding: 0.5em 0 0.5em 0;
+      display: flex;
+  }
+  
+  .search {
+      width: 100%;
+      display: flex;
+    }
+    
+    .searchTerm {
+      width: 100%;
+      border: 0.1em solid grey;
+      border-right: none;
+      padding: 0.3em;
+      height: 3em;
+      border-radius: 0.3em 0 0 0.3em;
+      outline: none;
+      color: black;
+    }
+    
+    .searchTerm:focus{
+      color: black;
+    }
+    
+    .searchButton {
+      width: 3em;
+      border: 0.1em solid grey;
+      border-width:  0.1em 0.1em 0.1em 0;
+      background-color: transparent;
+      text-align: center;
+      color: grey;
+      border-radius: 0 0.3em 0.3em 0;
+      cursor: pointer;
+      font-size: 1.3em;
+    }
+    
+    /*Resize the wrap to see the search bar change!*/
+    .wrap{
+      width: 100%;
+    }
+}
+
+

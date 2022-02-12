@@ -1,0 +1,7 @@
+<div class="posts-container">
+    <div *ngIf = "!carregado" class="loader"></div>
+    <app-item-post
+    *ngFor = "let post of posts"
+    [post] = "post"
+    ></app-item-post>
+</div>

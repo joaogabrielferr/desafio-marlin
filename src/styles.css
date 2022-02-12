@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    overflow-x:hidden;
+  } 
+
+a{
+    text-decoration: none;
+}
+
+p{
+    color: rgb(109, 109, 109);
+}
+
+h1{
+    color: #333;
+}
+
